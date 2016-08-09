@@ -1,0 +1,52 @@
+tours
+  has_many reservations
+  has_many users through reservations
+      capacity - integer
+      itinerary - text
+
+
+reservations
+  belongs to tour
+  belongs to user
+
+
+
+
+type #tour type
+  
+    title - string
+    season - option
+
+    description - text
+
+
+
+
+itinerary
+  belongs_to tour
+
+
+
+
+
+season
+  belongs to type
+
+  name
+
+
+
+
+
+newsletter
+
+
+
+
+
+
+
+
+
+
+
